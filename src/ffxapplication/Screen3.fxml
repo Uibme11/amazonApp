@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ffxapplication.Screen1Controller">
+   <children>
+      <Label layoutX="224.0" layoutY="122.0" text="Force Field X Command">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ProgressBar layoutX="200.0" layoutY="366.0" prefWidth="200.0" progress="0.6" />
+      <TitledPane alignment="TOP_CENTER" animated="false" prefHeight="27.0" prefWidth="600.0" text="Force Field X">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TitledPane>
+      <Button layoutX="540.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleButtonActionNext3" text="Next" />
+      <Label layoutX="144.0" layoutY="155.0" text="Choose FFX Command" />
+      <ChoiceBox layoutX="307.0" layoutY="150.0" prefWidth="150.0">
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" text="Structure Optimization" />
+              </items>
+            </ContextMenu>
+         </contextMenu></ChoiceBox>
+      <Button layoutX="14.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleButtonActionBack3" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ffxapplication.Screen1Controller">
+   <children>
+      <Label layoutX="146.0" layoutY="190.0" text="Amino Acid Position" />
+      <Label layoutX="184.0" layoutY="232.0" snapToPixel="false" text="Chain Identity" />
+      <TextField layoutX="291.0" layoutY="185.0" />
+      <TextField layoutX="291.0" layoutY="227.0" />
+      <Label layoutX="271.0" layoutY="63.0" text="Structure">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ProgressBar layoutX="200.0" layoutY="366.0" prefWidth="200.0" progress="0.4" />
+      <TitledPane alignment="TOP_CENTER" animated="false" prefHeight="27.0" prefWidth="600.0" text="Force Field X">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TitledPane>
+      <Button layoutX="540.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleButtonActionNext2" text="Next" />
+      <Label layoutX="138.0" layoutY="95.0" text="Choose FFX Structure" />
+      <ChoiceBox layoutX="294.0" layoutY="90.0" prefWidth="150.0" />
+      <Label layoutX="240.0" layoutY="157.0" text="Variant Information">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="147.0" layoutY="277.0" snapToPixel="false" text="Amino Acid Change" />
+      <TextField layoutX="290.0" layoutY="272.0" />
+      <Button layoutX="14.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleButtonActionBack2" text="Back" />
+   </children>
+</AnchorPane>

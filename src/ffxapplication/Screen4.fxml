@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ffxapplication.Screen1Controller">
+   <children>
+      <TitledPane alignment="TOP_CENTER" animated="false" prefHeight="27.0" prefWidth="600.0" text="Force Field X">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TitledPane>
+      <Label layoutX="153.0" layoutY="172.0" snapToPixel="false" text="FFX Command" />
+      <Label layoutX="255.0" layoutY="74.0" text="Job Summary">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ProgressBar layoutX="200.0" layoutY="366.0" prefWidth="200.0" progress="0.8" />
+      <Button layoutX="540.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleButtonActionNext4" text="Next" />
+      <Label layoutX="123.0" layoutY="241.0" snapToPixel="false" text="Amino Acid Position" />
+      <Button layoutX="14.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleButtonActionBack4" text="Back" />
+      <Label layoutX="182.0" layoutY="102.0" text="Job Name" />
+      <Label alignment="TOP_LEFT" layoutX="159.0" layoutY="125.0" text="Email Address" />
+      <Label layoutX="161.0" layoutY="149.0" text="FFX Structure" />
+      <Label layoutX="243.0" layoutY="213.0" text="Variant Information">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="265.0" snapToPixel="false" text="Chain ID" />
+      <Label layoutX="122.0" layoutY="288.0" snapToPixel="false" text="Amino Acid Change" />
+      <Label layoutX="266.0" layoutY="102.0" text="Label" />
+      <Label layoutX="266.0" layoutY="149.0" text="Label" />
+      <Label layoutX="266.0" layoutY="125.0" text="Label" />
+      <Label layoutX="266.0" layoutY="172.0" text="Label" />
+      <Label layoutX="266.0" layoutY="240.0" text="Label" />
+      <Label layoutX="266.0" layoutY="287.0" text="Label" />
+      <Label layoutX="266.0" layoutY="264.0" text="Label" />
+      <Label alignment="CENTER" layoutX="97.0" layoutY="323.0" prefHeight="27.0" prefWidth="414.0" text="If you are satisfied with the listed information, please press &quot;Submit.&quot;" />
+      <Label layoutX="109.0" layoutY="343.0" text="A confirmation notice will be sent to the specified email address." />
+   </children>
+</AnchorPane>

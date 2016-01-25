@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ffxapplication.Screen1Controller">
+   <children>
+      <Label layoutX="208.0" layoutY="167.0" text="Job Submission is Complete!">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ProgressBar layoutX="200.0" layoutY="366.0" prefWidth="200.0" progress="1.0" />
+      <TitledPane alignment="TOP_CENTER" animated="false" prefHeight="27.0" prefWidth="600.0" text="Force Field X">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TitledPane>
+      <Button layoutX="449.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleButtonActionHome" text="Submit Another Job" />
+      <Label layoutX="199.0" layoutY="191.0" text="Thank you for using Force Field X!" />
+      <Button fx:id="closeButton" layoutX="14.0" layoutY="363.0" mnemonicParsing="false" onAction="#handleButtonActionExit" text="Exit" />
+      <TabPane layoutY="27.0" prefHeight="170.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" />
+   </children>
+</AnchorPane>
